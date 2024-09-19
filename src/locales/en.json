@@ -1,0 +1,30 @@
+{
+  "header": {
+    "title": "Gabor Trainer"
+  },
+  "settings": {
+    "title": " Settings",
+    "exit": "Exit",
+    "save": "Save",
+    "language": "Select language",
+    "ru": "Russian",
+    "en": "English",
+    "auto": "Auto"
+  },
+  "buttons": {
+    "startExercise": "Start Exercise",
+    "settings": "Settings",
+    "exit": "Exit"
+  },
+  "exercise": {
+    "description": {
+      "intro": "This exercise takes only 3 minutes a day and helps improve your vision.",
+      "task": "Your task is to find the matching images among the Gabor patches.",
+      "howTo": "How to perform the exercise:",
+      "howToDetails": "For 3 minutes, carefully search for pairs among the patches that appear to be the same.",
+      "howToDetails2": "If you finish earlier than 3 minutes, you can reload the exercise page to see new patches.",
+      "why": "Why is it important:",
+      "whyDetails": "This exercise helps your eyes strain naturally, which strengthens your eye muscles, improves focus, and relieves tension. Regular exercises improve vision without much effort."
+    }
+  }
+}

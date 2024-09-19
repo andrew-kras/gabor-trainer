@@ -152,4 +152,38 @@ export default {
       canvas
         width 100px
         height 100px
+
+  @media (max-width: 768px)
+    .gabor-grid
+      grid-template-columns repeat(5, 1fr)
+      grid-template-rows repeat(6, 1fr)
+      gap 8px
+
+    .gabor-spot
+      width 80px
+      height 80px
+
+      canvas
+        width 80px
+        height 80px
+
+    .timer
+      font-size 20px
+
+  @media (max-width: 480px)
+    .gabor-grid
+      grid-template-columns repeat(3, 1fr)
+      grid-template-rows repeat(10, 1fr)
+      gap 6px
+
+    .gabor-spot
+      width 60px
+      height 60px
+
+      canvas
+        width 60px
+        height 60px
+
+    .timer
+      font-size 18px
 </style>

@@ -73,4 +73,34 @@ export default {
 
     p
       margin-bottom 12px
+
+  @media (max-width: 768px)
+    padding-left 16px
+    padding-right 16px
+    gap 16px
+
+    .exercise-description
+      max-width 100%
+      margin-bottom 16px
+
+      h2
+        font-size 1.2rem
+        margin-top 12px
+        margin-bottom 6px
+
+      p
+        font-size 0.9rem
+        margin-bottom 8px
+
+  @media (max-width: 480px)
+    .exercise-description
+      h2
+        font-size 1rem
+        margin-top 10px
+        margin-bottom 4px
+
+      p
+        font-size 0.85rem
+        margin-bottom 6px
+
 </style>

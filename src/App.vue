@@ -23,12 +23,10 @@
 .app
   height 100vh
   width 100vw
-
   font-family "Montserrat", sans-serif
   font-weight 400
   font-style normal
   text-align center
-
   color $app-text-color
   background-color $app-bg-color
 
@@ -37,7 +35,6 @@
     border-bottom 1px solid $header-border-color
     padding 10px
     box-shadow 0 2px 4px $header-shadow-color
-
     display flex
     justify-content center
     align-items center
@@ -67,4 +64,37 @@
       img.github-icon
         width 52px
         height 22px
+
+@media (max-width: 768px)
+  .header
+    padding 8px
+    gap 8px
+
+    .logo
+      width 32px
+      height 32px
+
+    h1
+      font-size 1.5rem
+
+  .main
+    padding 16px
+
+  .footer
+    visibility hidden
+
+@media (max-width: 480px)
+  .header
+    flex-direction column
+    gap 6px
+
+    .logo
+      width 28px
+      height 28px
+
+    h1
+      font-size 1.2rem
+
+  .main
+    padding 12px
 </style>

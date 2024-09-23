@@ -17,10 +17,6 @@
         :text="$t('settings.exit')"
         @click="close()"
       )
-      gt-button(
-        :text="$t('settings.save')"
-        @click="saveSettings()"
-      )
 </template>
 
 <script>
@@ -58,13 +54,6 @@ export default {
       } else {
         this.$i18n.locale = this.selectedLanguage;
       }
-    },
-
-    saveSettings() {
-      if (this.selectedLanguage !== 'auto') {
-        localStorage.setItem('gt-selected-language', this.selectedLanguage);
-      }
-      this.close();
     }
   },
 
@@ -85,7 +74,7 @@ export default {
   left 0
   top 0
   width 100vw
-  height 100vh
+  height 100%
 
   z-index 100
 

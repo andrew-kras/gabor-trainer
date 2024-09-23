@@ -23,10 +23,12 @@
 .app
   height 100vh
   width 100vw
+
   font-family "Montserrat", sans-serif
   font-weight 400
   font-style normal
   text-align center
+
   color $app-text-color
   background-color $app-bg-color
 
@@ -39,62 +41,26 @@
     justify-content center
     align-items center
     gap 10px
+    width 100%
 
     .logo
       width 36px
       height 36px
 
   .main
-    padding 20px
+    padding 30px
 
   .footer
-    padding 4px
     border-top 1px solid $footer-border-color
     background-color $footer-bg-color
-    position absolute
     width 100%
+    position fixed
     bottom 0
     display flex
     justify-content center
     align-items center
 
-    a
-      text-decoration none
-
-      img.github-icon
-        width 52px
-        height 22px
-
-@media (max-width: 1000px)
-  .header
-    padding 8px
-    gap 8px
-
-    .logo
-      width 32px
-      height 32px
-
-    h1
-      font-size 1.5rem
-
-  .main
-    padding 16px
-
-  .footer
-    visibility hidden
-
-@media (max-width: 480px)
-  .header
-    flex-direction column
-    gap 6px
-
-    .logo
-      width 28px
-      height 28px
-
-    h1
-      font-size 1.2rem
-
-  .main
-    padding 12px
+    img.github-icon
+      width 52px
+      height 22px
 </style>
